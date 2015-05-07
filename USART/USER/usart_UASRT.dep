@@ -1,60 +1,0 @@
-Dependencies for Project 'usart', Target 'UASRT': (DO NOT MODIFY !)
-F (.\main.c)(0x553B5E1E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\STM32_FWLIB\inc -I..\CORE-I E:\keil4\ARM\RV31\INC-I E:\keil4\ARM\CMSIS\Include-I E:\keil4\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o main.o --omf_browse main.crf --depend main.d)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x.h)(0x4D783CB4)
-I (C:\Users\Holmes\Desktop\USART\CORE\core_cm3.h)(0x4D523B58)
-I (E:\keil4\ARM\ARMCC\include\stdint.h)(0x51C7B744)
-I (C:\Users\Holmes\Desktop\USART\USER\system_stm32f10x.h)(0x4D783CAA)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x_conf.h)(0x5538BF5A)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (E:\keil4\ARM\ARMCC\include\stdio.h)(0x51C7B744)
-F (.\stm32f10x_it.c)(0x4D99A59E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\STM32_FWLIB\inc -I..\CORE-I E:\keil4\ARM\RV31\INC-I E:\keil4\ARM\CMSIS\Include-I E:\keil4\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o stm32f10x_it.o --omf_browse stm32f10x_it.crf --depend stm32f10x_it.d)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x_it.h)(0x4D99A59E)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x.h)(0x4D783CB4)
-I (C:\Users\Holmes\Desktop\USART\CORE\core_cm3.h)(0x4D523B58)
-I (E:\keil4\ARM\ARMCC\include\stdint.h)(0x51C7B744)
-I (C:\Users\Holmes\Desktop\USART\USER\system_stm32f10x.h)(0x4D783CAA)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x_conf.h)(0x5538BF5A)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-F (.\system_stm32f10x.c)(0x4D99A59E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\STM32_FWLIB\inc -I..\CORE-I E:\keil4\ARM\RV31\INC-I E:\keil4\ARM\CMSIS\Include-I E:\keil4\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o system_stm32f10x.o --omf_browse system_stm32f10x.crf --depend system_stm32f10x.d)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x.h)(0x4D783CB4)
-I (C:\Users\Holmes\Desktop\USART\CORE\core_cm3.h)(0x4D523B58)
-I (E:\keil4\ARM\ARMCC\include\stdint.h)(0x51C7B744)
-I (C:\Users\Holmes\Desktop\USART\USER\system_stm32f10x.h)(0x4D783CAA)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x_conf.h)(0x5538BF5A)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-F (..\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\keil4\ARM\RV31\INC-I E:\keil4\ARM\CMSIS\Include-I E:\keil4\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
-F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\STM32_FWLIB\inc -I..\CORE-I E:\keil4\ARM\RV31\INC-I E:\keil4\ARM\CMSIS\Include-I E:\keil4\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
-I (E:\keil4\ARM\ARMCC\include\stdint.h)(0x51C7B744)
-F (..\STM32_FWLIB\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\STM32_FWLIB\inc -I..\CORE-I E:\keil4\ARM\RV31\INC-I E:\keil4\ARM\CMSIS\Include-I E:\keil4\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x.h)(0x4D783CB4)
-I (C:\Users\Holmes\Desktop\USART\CORE\core_cm3.h)(0x4D523B58)
-I (E:\keil4\ARM\ARMCC\include\stdint.h)(0x51C7B744)
-I (C:\Users\Holmes\Desktop\USART\USER\system_stm32f10x.h)(0x4D783CAA)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x_conf.h)(0x5538BF5A)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-F (..\STM32_FWLIB\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\STM32_FWLIB\inc -I..\CORE-I E:\keil4\ARM\RV31\INC-I E:\keil4\ARM\CMSIS\Include-I E:\keil4\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x.h)(0x4D783CB4)
-I (C:\Users\Holmes\Desktop\USART\CORE\core_cm3.h)(0x4D523B58)
-I (E:\keil4\ARM\ARMCC\include\stdint.h)(0x51C7B744)
-I (C:\Users\Holmes\Desktop\USART\USER\system_stm32f10x.h)(0x4D783CAA)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x_conf.h)(0x5538BF5A)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-F (..\STM32_FWLIB\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\STM32_FWLIB\inc -I..\CORE-I E:\keil4\ARM\RV31\INC-I E:\keil4\ARM\CMSIS\Include-I E:\keil4\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_usart.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x.h)(0x4D783CB4)
-I (C:\Users\Holmes\Desktop\USART\CORE\core_cm3.h)(0x4D523B58)
-I (E:\keil4\ARM\ARMCC\include\stdint.h)(0x51C7B744)
-I (C:\Users\Holmes\Desktop\USART\USER\system_stm32f10x.h)(0x4D783CAA)
-I (C:\Users\Holmes\Desktop\USART\USER\stm32f10x_conf.h)(0x5538BF5A)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (C:\Users\Holmes\Desktop\USART\STM32_FWLIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
